@@ -179,11 +179,12 @@
 
       <img  src="static/images/block_diagram.png" width="70%" height="340"/>
       <figcaption>
-        The proposed system consists of three stages. (a) RGB Scene images are collected, 
-        which are then transformed into Depthmap. (b) The depthmap is processed by VLM (Google Gemini). 
-        As shown it responds back with the appropriate action. (c) Finally,
-        the feedback from VLM, relative heading angle, left and right distance
-        sensor measurement along with extracted patches are sent to the navigator model.  
+        The proposed system operates in three stages: 
+        (a) First, RGB scene images are captured and converted into a depth map. 
+        (b) This depth map is then analyzed by the vision-language model (VLM), 
+        specifically Google Gemini, which provides the corresponding action response. 
+        (c) Lastly, the VLM's feedback, along with the relative heading angle, 
+        left and right distance sensor measurements, and extracted patches, are sent to the navigation model.  
       </figcaption>
       </div>
     </div>
@@ -220,8 +221,10 @@
       <img  src="static/images/basic_env_result.png" width="50%" height="300"/>
       <img  src="static/images/blocks_env_result.png" width="50%" height="300"/>
       <figcaption>
-      ten consequetive flights following the proposed system is illustrated here. Each episode is recorded with different color. 
-      As shown the proposed method successfully able to avoid obstacle and reach destination.
+        The results of ten consecutive flights using the proposed system are displayed here
+        for both of the maps, with each episode represented by a different color. 
+        As demonstrated, the method effectively avoids obstacles and successfully reaches its destination 
+        in each case.
       </figcaption>  
     </div>
   </section>
