@@ -22,7 +22,25 @@
   <!-- Keywords for your paper to be indexed by-->
   <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Container for videos */
+        .video-container {
+            display: flex;
+            justify-content: center; /* Center the videos horizontally */
+            gap: 20px; /* Space between videos */
+            padding: 20px;
+        }
 
+        /* Style for individual videos */
+        .video-container video {
+            width: 100%; /* Adjust to fit */
+            max-width: 500px; /* Limit the width */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
 
   <title>VLM-NAV</title>
   <link rel="icon" type="image/x-icon" href="static/images/drone.ico">
@@ -130,12 +148,18 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/drone_video.mp4"
+        <source src="static/videos/blocks_demo_compressed.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <!-- Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.  -->
+      </h2>
+    </div>
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="static/videos/dw_demo_compressed.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
       </h2>
     </div>
   </div>
